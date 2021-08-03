@@ -1,5 +1,4 @@
 import RouterHandler from './router.js';
-import store from './store.js';
 
 window.onhashchange = () => { // helps us detect when the hash router in the url changes
     setActiveLink();
